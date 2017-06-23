@@ -4,9 +4,9 @@
 int main()
 {
 	int a,pos;
-	printf("Enter the no.");
+	printf("Enter the number :");
 	scanf("%d",&a);
-	printf("Enter the position.");
+	printf("\nEnter the position.");
 	scanf("%d",&pos);
 	a=a^(1<<pos);
 	printf("%d",a);
